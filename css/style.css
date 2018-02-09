@@ -1,0 +1,40 @@
+.body {
+  color: #f3f3f3;
+  font-family: 'Raleway', sans-serif; }
+
+.wrapperServices {
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: cover; }
+
+article {
+  width: 100%;
+  text-align: center; }
+  article h2 {
+    font-weight: 900;
+    display: block;
+    font-size: 40px;
+    color: #f3f3f3;
+    padding-bottom: 30px;
+    text-transform: uppercase; }
+  article h2:after {
+    content: "";
+    margin-top: 17px;
+    display: block;
+    width: 114px;
+    height: 8px;
+    background-color: #31c4dd;
+    margin: auto; }
+
+.services {
+  max-width: 1180px;
+  margin: auto;
+  font-weight: 400; }
+  .services h2 {
+    font-weight: 700; }
+
+.services-item {
+  background: url(../img/cup.png) center 10px no-repeat;
+  height: 300px;
+  padding-top: 50px;
+  text-align: center;
+  color: #f3f3f3; }

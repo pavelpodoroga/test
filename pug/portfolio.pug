@@ -1,0 +1,16 @@
+mixin portfolio()
+    div.wrapperPortfolio
+        article.row.portfolio
+            a(href="")
+                h2 portfolio
+            - var list = ["1(128).jpg", "1(136).jpg" , "1(164).jpg", "1(166).jpg", "1(185).jpg", "1(186).jpg", "1(196).jpg" ,"Untitled-1.jpg"]
+            each item in list
+                section.col-md-3.boot-col
+                    div.portfolio-item
+                        a(href="#")
+                            img(src="img/"+item alt="lorem")
+                            div.portfolio-item-cap
+                                p Product Design
+                                    br
+                                    span “LimeLight”
+                            

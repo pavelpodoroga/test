@@ -1,0 +1,15 @@
+mixin services()
+    div.wrapperServices
+        article.row.services
+            a(href="")
+                h2 my services
+            - var list = ["cup", "boxs" , "horn", "messages", "files", "android"]
+            each item in list
+                - var str = "services-item "+ item
+                section.col-md-4
+                    div(class = str)
+                        h3 PRODUCT DESIGN
+                        p.
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+            
+            
